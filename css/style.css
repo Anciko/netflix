@@ -1,0 +1,50 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/MM-en-20220307-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+
+.hero-text-box-title {
+  font-size: 3.125rem;
+  color: #fff;
+}
+.hero-text-box-subtitle {
+  font-size: 1.625rem;
+  color: #fff;
+}
+
+/* ------- enjoy section start */
+.enjoy-section,
+.download-section,
+.watch-section,
+.kid-section,
+.faq-section,
+footer {
+  background-color: #000000;
+  border-top: 8px solid #333;
+}
+/* ------- enjoy sectiton end */
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 560px) {
+  .hero-text-box-title {
+    font-size: 1.625rem;
+    color: #fff;
+  }
+  .hero-text-box-subtitle {
+    font-size: 1.125rem;
+    color: #fff;
+  }
+}
